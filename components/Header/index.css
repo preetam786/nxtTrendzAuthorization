@@ -1,0 +1,43 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 5%;
+}
+
+.web-logo-container {
+  width: 30%;
+}
+
+.website-logo {
+  width: 180px;
+}
+
+.nav-list {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.nav-list-item {
+  display: flex;
+  justify-content: center;
+  padding-top: 3px;
+  text-align: center;
+  width: 75px;
+  height: 30px;
+  color: #475569;
+  border-radius: 5px;
+}
+
+.active-link {
+  background-color: #0b69ff;
+  color: #e2e8f0;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 14;
+  font-weight: 550;
+}
